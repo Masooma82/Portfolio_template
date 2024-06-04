@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/last.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "portfolio_aesthetic";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Virtual Memory Verification -SV32",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Put a considerable effort in writing the compliance tests for superpage and two-level pages in both user and supervisor modes, emphasizing the importance of thorough testing to ensure correct implementation of the advanced memory management feature. These compliance tests encompass critical aspects of virtual memory management, including address translation, permissions, and page faults resulting from the manipulation of various bits within the Page Table Entry (PTE)",
+    url: "https://github.com/Masooma82/riscv-arch-test/tree/main/riscv-test-suite/rv32i_m/vm_test/src",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Running Microbenchmarks on UETRV_PCORE",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Run micrbenchmarks including execution, control, memory, dependency chain tests on UETRV_PCORE and calculate IPC",
+    url: "https://drive.google.com/drive/folders/1X7YdP5yO0QGKc3ZWDZhaOwBt2TZon4xL?usp=sharing",
   },
   {
-    title: "My Resume Site",
+    title: "Boot Linux on UETRV_PCORE",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Boot Linux on the UETRV-PCORE with FPGA. Employing OpenSBI version 0.9 as the first-level bootloader and leveraging Buildroot 2021.05 for the root file system, incorporating Busybox 1.33, ensures an optimized environment. The utilization of the GNU toolchain riscv32-unknown-linux-gnu and Linux kernel version 6.1, directly linked into OpenSBI, the seamless transfer of the OS image via UART connection showcases precision and reliability in the bootstrapping process.",
+    url: "https://drive.google.com/drive/folders/1tTQ5KfA8pHPaUaokWjBegRBqb8XkZi5t?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Pakistan Sign Language (PSL) recognition using Mediapipe and tensorflow",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Introduce an innovative approach to Pakistan Sign Language (PSL) recognition, utilizing advanced technologies like Mediapipe and TensorFlow to efficiently interpret PSL gestures. By combining real-time hand gesture tracking with machine learning models, the project successfully achieved high accuracy in recognizing and categorizing intricate PSL gestures, offering a promising tool for improving communication accessibility for individuals with hearing impairments.",
+    url: "https://github.com/Masooma82/hand-gesture-recognition-mediapipe",
   },
 ];
 

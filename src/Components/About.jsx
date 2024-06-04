@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/mid.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,18 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am an Electrical Engineer with Specialization in Computer Architecture and Machine Learning. Having experience in RTL Designing and verification";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "RTL",
+  "Verification and Testing",
+  "Machine Learning",
+  "Embedded",
+  "RTOS",
 ];
 
 /**
@@ -44,8 +43,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = "With a diverse background spanning software services testing, design engineering, and computer architecture research, I bring a wealth of experience to the table. Notably, I have specialized in VIRTUAL MEMORY(VM) compliance testing on RISCV architecture, earning recognition for my contributions in this domain. Additionally, I have successfully achieved the milestone of BOOTING LINUX on UETRV_PCORE and am presently engaged in running MICROBENCHMARKS on the same platform using Verilator. My ongoing learning endeavors include synthesizing and onboard chip design for UETRV_PCORE.";
 
 const About = () => {
   return (
