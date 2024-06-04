@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/last.jpeg";
+import image from "../images/last.png";
 
 const imageAltText = "portfolio_aesthetic";
 
