@@ -28,7 +28,7 @@ const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem", backgroundColor: "white", borderRadius: "0.05rem", padding: "5rem"}}>
+      <div style={{ position: "absolute", top: "5rem", left: "0.5rem", width: "17rem", backgroundColor: "white", borderRadius: "0.05rem", padding: "2rem"}}>
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
