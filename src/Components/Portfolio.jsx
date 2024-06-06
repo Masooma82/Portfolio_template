@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Virtual Memory Verification -SV32",
     description:
-      "Put a considerable effort in writing the compliance tests for superpage and two-level pages in both user and supervisor modes, emphasizing the importance of thorough testing to ensure correct implementation of the advanced memory management feature. These compliance tests encompass critical aspects of virtual memory management, including address translation, permissions, and page faults resulting from the manipulation of various bits within the Page Table Entry (PTE)",
+      "Write compliance tests in assembly which encompass critical aspects of virtual memory management, including address translation, permissions, and page faults resulting from the manipulation of various bits within the Page Table Entry (PTE)",
     url: "https://github.com/Masooma82/riscv-arch-test/tree/main/riscv-test-suite/rv32i_m/vm_test/src",
   },
   {
